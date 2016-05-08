@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="186693016306791"
+    verifier="R_CLASS_CHANGE" >
+
+    <task
+        name="javac"
+        duration="511" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="20" />
+    <task
+        name="verifier"
+        duration="15" />
+
+    <artifact
+        location="C:\Users\prakhag\AndroidStudioProjects\HappyBirthday\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\prakhag\AndroidStudioProjects\HappyBirthday\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+
+    <build timestamp="186120623977119" >
+        <artifact
+            location="C:\Users\prakhag\AndroidStudioProjects\HappyBirthday\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="186693016306791"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\prakhag\AndroidStudioProjects\HappyBirthday\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\prakhag\AndroidStudioProjects\HappyBirthday\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

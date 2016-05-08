@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prakhag.happybirthday.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"
+        android:id="@+id/popular_movies"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:onClick="popularMoviesClicked"
+        android:theme="@android:style/Theme.Holo"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="STOCK HAWK"
+        android:id="@+id/stock_hawk"
+        android:layout_below="@+id/popular_movies"
+        android:layout_centerHorizontal="true"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="7dp"
+        android:onClick="stockHawkClicked"
+        android:theme="@android:style/Theme.Holo"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/build_it_bigger"
+        android:layout_below="@+id/stock_hawk"
+        android:layout_centerHorizontal="true"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="7dp"
+        android:onClick="buildITBiggerClicked"
+        android:theme="@android:style/Theme.Holo"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:id="@+id/make_your_app_material"
+        android:layout_below="@+id/build_it_bigger"
+        android:layout_centerHorizontal="true"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="7dp"
+        android:onClick="makeYourOwnMaterialClicked"
+        android:theme="@android:style/Theme.Holo"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GO UBIQUITOUS"
+        android:id="@+id/go_ubiquitous"
+        android:layout_below="@+id/make_your_app_material"
+        android:layout_centerHorizontal="true"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="7dp"
+        android:onClick="goUbiquitousClicked"
+        android:theme="@android:style/Theme.Holo"
+            />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"
+        android:id="@+id/capstone"
+        android:layout_below="@+id/go_ubiquitous"
+        android:layout_centerHorizontal="true"
+        android:background="#00897B"
+        android:textColor="#FAFAFA"
+        android:layout_marginTop="7dp"
+        android:onClick="capstoneClicked"
+        android:theme="@android:style/Theme.Holo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps !"
+        android:id="@+id/nanodegree_appslabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+</RelativeLayout>
